@@ -6,6 +6,16 @@ and financial data tools, and synthesizes a comprehensive markdown report.
 
 ## The architecture ##
 
+```
+planner → produces [task1, task2, task3]
+              ↓                                    
+Send(task1) → executer instance 1  → summarizer 1 -|
+Send(task2) → executer instance 2  → summarizer 2 -| parallel
+Send(task3) → executer instance 3  → summarizer 3 -|
+              ↓
+         reporter (collects all 3 summaries) → produce the final report 
+```
+
 - **Planner**: Decomposes the query into 3-5 focused research tasks
 - **Executer**: ReAct agent that retrieves data using web search and financial APIs
 - **Summarizer**: Cleans and structures each task result with references
