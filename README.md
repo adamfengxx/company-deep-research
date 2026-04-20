@@ -1,4 +1,4 @@
-# Company deep research #
+# Company deep research (demo) #
 
 An AI-powered company research system built with LangGraph that automatically
 decomposes research queries into parallel tasks, executes them using web search
