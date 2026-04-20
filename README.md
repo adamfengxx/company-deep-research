@@ -27,7 +27,7 @@ Send(task3) → executer instance 3  → summarizer 3 → produce summary 3|
 
 - **LangGraph** — agent orchestration and parallel workflow (Send API)
 - **LangChain** — LLM integration and tool management
-- **OpenAi LLM** — LLM backbone
+- **OpenAI LLM** — LLM backbone
 - **Tavily** — web search tool
 - **Alpha Vantage MCP** — real-time financial data
 - **FastAPI** — REST API server
