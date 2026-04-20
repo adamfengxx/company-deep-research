@@ -33,4 +33,10 @@ Send(task3) → executer instance 3  → summarizer 3 -|
 
 ## The tools ##
 
+| Tools | Usage |
+|--- | ----|
+| Tavily | Web search |
+| Alpha Vantage MCP | real-time financial data |
+| Resend API | Send email service |
+
 
