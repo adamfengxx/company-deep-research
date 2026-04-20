@@ -1,0 +1,37 @@
+# LLM
+langchain-openai>=0.3.0
+
+# LangGraph + LangChain core
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# MCP
+langchain-mcp-adapters>=0.1.0
+
+# Search
+langchain-tavily>=0.1.0
+
+# API
+fastapi>=0.115.0
+uvicorn>=0.32.0
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+greenlet>=3.0.0
+
+# Data validation
+pydantic>=2.9.0
+pydantic-settings>=2.0.0
+
+# Typing
+typing-extensions>=4.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Email
+resend>=2.0.0
+markdown>=3.5.0
