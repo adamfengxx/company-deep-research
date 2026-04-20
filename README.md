@@ -1,8 +1,26 @@
 # Company deep research #
 
-This is the small ai agent progect. The final result is a report of a company which interests the user. In each report, the sources will be listed at the bottom. 
+An AI-powered company research system built with LangGraph that automatically
+decomposes research queries into parallel tasks, executes them using web search
+and financial data tools, and synthesizes a comprehensive markdown report.
 
 ## The architecture ##
 
-The project is completed using LangGraph.  There are four nodes: Planner, executer, summerizer and reporter.
+- **Planner**: Decomposes the query into 3-5 focused research tasks
+- **Executer**: ReAct agent that retrieves data using web search and financial APIs
+- **Summarizer**: Cleans and structures each task result with references
+- **Reporter**: Synthesizes all summaries into a final markdown report
+
+## Tech Stack ##
+
+- **LangGraph** — agent orchestration and parallel workflow (Send API)
+- **LangChain** — LLM integration and tool management
+- **OpenAi LLM** — LLM backbone
+- **Tavily** — web search tool
+- **Alpha Vantage MCP** — real-time financial data
+- **FastAPI** — REST API server
+- **Pydantic** — data validation and structured outputs
+
+## The tools ##
+
 
