@@ -1,11 +1,9 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from typing import AsyncGenerator
-from pathlib import Path
 from db.data_models import Base
+from agent.config import settings
 
-DB_PATH = Path(__file__).parents[2] / "data" / "reports.db"
-
-engine = create_async_engine(f"sqlite+aiosqlite:///{DB_PATH}", echo=False)
+engine = create_async_engine(settings.database_url, echo=False)
 SessionLocal = async_sessionmaker(engine, expire_on_commit=False)
 
 

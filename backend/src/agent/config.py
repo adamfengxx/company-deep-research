@@ -23,6 +23,9 @@ class Settings(BaseSettings):
     resend_api_key: str
     sender_email: str = "onboarding@resend.dev"
 
+    # Database
+    database_url: str
+
 
 settings = Settings()
 
