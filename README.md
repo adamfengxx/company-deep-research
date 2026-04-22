@@ -2,6 +2,8 @@
 
 Update: We change the database url using the railway PostgreSQL servcie for deployment of this demo.
 
+Railway is PaaS for deployment of my demo. 
+
 You can check the api docs for more: https://company-deep-research-production.up.railway.app/docs#/
 
 ----------
