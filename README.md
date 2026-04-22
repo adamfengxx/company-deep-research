@@ -1,5 +1,10 @@
 # Company deep research (demo) #
 
+Update: We change the database url using the railway PostgreSQL servcie for deployment of this demo.
+
+You can check the api docs for more: https://company-deep-research-production.up.railway.app/docs#/
+
+----------
 An AI-powered company research system built with LangGraph that automatically
 decomposes research queries into parallel tasks, executes them using web search
 and financial data tools, and synthesizes a comprehensive markdown report. The md file 
